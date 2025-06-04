@@ -1,0 +1,44 @@
+.parent p{
+            font-family:cursive;
+            letter-spacing: 6px;
+            text-transform: capitalize;
+            text-decoration: double;
+        }
+        p:hover{
+             color:cadetblue;
+             background-color:blueviolet;
+        }
+        .border{
+            border: 2px solid red;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            border-left-style: dotted;
+            border-right-style: dotted;
+
+        }
+        margin{
+            bored: 3px solid aquamarine;
+            margin-top: 50px;
+            padding: 10px 50px 5px 30px;
+        }
+         .position{
+            border: 10px solid red;
+        }
+        .relative{
+            position: absolute;
+            top: 40px;
+            left: 80px;
+        }
+       .page{
+        height: 100;
+       }
+       .fixed{
+        position: fixed;
+        left:150px
+       }
+       .sticky{
+        position:sticky;
+        top:10px;
+        left:120px
+       }
