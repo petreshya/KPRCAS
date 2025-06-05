@@ -48,3 +48,45 @@
        .display{
         display: style;
        }
+       .flex-container{
+        display: flex;
+        flex-direction: row;
+        background-color: chartreuse;
+        border: 2px soild black;
+        padding:15px;
+        justify-content: space-around;
+        align-items:  center;
+        height: 100dvh;
+       }
+       .flex-container div{
+        background-color: red;
+        border: 2px solid black;
+        height: 50px;
+        width: 50px ;
+       }
+       .two{
+        flex-shrink: 0;
+       }
+       .nav{
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .li{
+        list-style: none;
+       }
+       .grid-container{
+        display: gird;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 50px 50px;
+        row-gap: 20PX;
+        column-gap: 30PX;
+       }
+       .grid-container div{
+        border: 2px solid cyan;
+       }
+       .one{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 5;
+       }
