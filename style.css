@@ -42,3 +42,9 @@
         top:10px;
         left:120px
        }
+       .inline{
+        display: inline;
+       }
+       .display{
+        display: style;
+       }
